@@ -20,6 +20,7 @@ export const DivOpacity = styled.div`
   padding: 4rem;
   margin: 5rem auto;
   background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
 
   @media only screen and (max-width: 768px) {
   }

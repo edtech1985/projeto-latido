@@ -161,7 +161,7 @@ export const StyledNavItem = styled(NavLink)`
   position: relative;
 
   &:hover {
-    color: var(--brown);
+    color: var(--yellow);
   }
 
   &::after {
@@ -171,7 +171,7 @@ export const StyledNavItem = styled(NavLink)`
     height: 2px;
     bottom: 0px;
     left: 12%;
-    background-color: var(--brown);
+    background-color: var(--yellow);
     opacity: 0;
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
     transform: scaleX(0);
