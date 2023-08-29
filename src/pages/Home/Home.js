@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 // import { Link } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
-import backgroundImg from "../../components/assets/logo.png";
+import backgroundImg from "../../assets/logo.png";
 
 export const HomePage = styled.div`
   text-align: center;

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import NotFoundImage from "../../components/assets/notfound.jpg";
+import NotFoundImage from "../../assets/notfound.jpg";
 import { BackDiv, Container, Image } from "./NotFound";
 import {
   Button,

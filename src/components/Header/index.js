@@ -8,7 +8,7 @@ import {
   StyledNavItem,
   BurgerMenuButton,
 } from "./Header";
-import logo from "../../components/assets/logo.png";
+import logo from "../../assets/logo.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);

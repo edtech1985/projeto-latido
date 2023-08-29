@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { FaInstagram } from "react-icons/fa";
-import backgroundImg from "../../components/assets/ajudar.jpg";
+import backgroundImg from "../../assets/ajudar.jpg";
 
 export const AboutUsContainer = styled.div`
   text-align: center;

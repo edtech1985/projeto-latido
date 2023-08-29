@@ -3,42 +3,42 @@
         "id": 1,
         "nome": "Pedro",
         "descricao": "Oi pessoal! Meu nome é Pedro, sou um dog muuuito animado! Adoro brincar e passear! Fui resgatado com uma bicheira na perna e estava muito magro. Quase perdi minha perninha, mas os anjos do Projeto me resgataram a tempo e agora estou 100% e pronto para ir para um novo lar com muito amor e cuidado! Me adota? ❤️",
-        "img_url": "components/assets/dogs/pedro.jpg"
+        "img_url": "assets/dogs/pedro.jpg"
     },
     {
         "id": 2,
         "nome": "Pipoco",
         "descricao": "Oi galerinha! Meu nome é Pipoco! Sou um filhotão ainda, muito brincalhão! Fui abandonado perto de uma academia e machuquei minha patinha traseira. Felizmente me encontraram e agora estou no projeto. Tenho aproximadamente 5 meses e tenho muuuita energia! Me dou bem com crianças, adultos, animais… qualquer um! Sim, sou um amor! 😉 Estou a espera de um lar definitivo, onde me deem um amor que eu possa retribuir. Me adota?! ❤️",
-        "img_url": "components/assets/dogs/pipoco.jpg"
+        "img_url": "assets/dogs/pipoco.jpg"
     },
     {
         "id": 3,
         "nome": "Yutá",
         "descricao": "Oieee, eu sou a Yutá! Sou uma cachorrinha muito simpática, adoro pessoas e me dou muito bem com outros animais, adoro brincar com eles! 😊 Sou de porte médio/pequeno e castrada, e estou esperando minha família. Vem me conhecer , tenho certeza que você vai gostar de mim.",
-        "img_url": "components/assets/dogs/yuta.jpg"
+        "img_url": "assets/dogs/yuta.jpg"
     },
     {
         "id": 4,
         "nome": "Casemiro",
         "descricao": "Meu nome é Casemiro! Fui atropelado e resgatado na rua Casimiro Dias, por isso meu nome. Sou um cão de porte médio, castrado, gosto de outros cães e sou ótimo para companhia e cuidar de quintal! Não sou muito chegado a colo, sou mais na minha! Mas todos me adoram mesmo assim, porque sou muito bonzinho!         Estou para adoção! Vem me conhecer ❤️",
-        "img_url": "components/assets/dogs/casemiro.jpg"
+        "img_url": "assets/dogs/casemiro.jpg"
     },
     {
         "id": 5,
         "nome": "Fubá",
         "descricao": "Oie! Eu sou o Fubá! Fui resgatado em uma construção bastante debilitado… Depois de um tempo, descobriram que eu tive cinomose e fiquei com sequelas. Sou um cãozinho especial, minhas patas traseiras não são firmes e eu tenho alguns problemas neurológicos. Mas isso não me impede de ser um amorzinho! Como sou grande, gosto de brincar bastante e me dou bem com outros cães de grande porte. Estou no Projeto esperando o grande dia em que alguém irá me escolher além das minhas características físicas. Me adota? ❤️",
-        "img_url": "components/assets/dogs/fuba.jpg"
+        "img_url": "assets/dogs/fuba.jpg"
     },
     {
         "id": 6,
         "nome": "Dalila",
         "descricao": "Oi pessoal! Sou a Dalila, conhecida como Besoura pelos mais íntimos! Tenho 2 anos e sou castrada! Como vocês podem ver, tenho um porte grande, isso faz com que eu me dê muito bem com outros animais de porte grande e também tenha uma super disposição para passear e correr! Cheguei a ser adotada uma vez, mas não deu certo, e estou aqui no projeto de novo, aguardando um lar! Vem me conhecer! ❤️",
-        "img_url": "components/assets/dogs/dalila.jpg"
+        "img_url": "assets/dogs/dalila.jpg"
     },
     {
         "id": 7,
         "nome": "Amora",
         "descricao": "Oiii!! Meu nome é Amora! 🧡 Minha história não é muito comum não. Me encontraram em um buraco no lixão, prenha. Me levaram para o abrigo e como eu tinha receio de fazerem mal para mim, demorei 2 meses para interagir com os humanos. Lá tive meus filhotes, que foram para novos lares, e eu fiquei. Cheguei a ser adotada 2 vezes, mas como sou medrosa, acabo fugindo pois preciso de tempo e muito carinho pra me acostumar. As duas vezes que fugi, meus anjos do projeto me encontraram e me trouxeram de volta. Agora estou aqui, esperando um lar, com muito amor e principalmente paciência para me ajudar a me adaptar e criar vínculos! (Mas eu garanto de que depois que confio, você será meu melhor amigo). Sou companheira e boa para cuidar do quintal, não deixo nada passar despercebido! Gostou da minha história? Quer me adotar? Estou ansiosa para conhecer alguém que acredite em mim! Lambeijos ❤️",
-        "img_url": "components/assets/dogs/amora.jpg"
+        "img_url": "assets/dogs/amora.jpg"
     }
 ]

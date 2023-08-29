@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import backgroundImage from "../../components/assets/ajudar.jpg";
-import backgroundImg from "../../components/assets/ajudar.jpg";
+import backgroundImage from "../../assets/ajudar.jpg";
+import backgroundImg from "../../assets/ajudar.jpg";
 
 export const AjudarBackground = styled.div`
   position: fixed;

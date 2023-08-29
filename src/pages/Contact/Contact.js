@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundImg from "../../components/assets/ajudar.jpg";
+import backgroundImg from "../../assets/ajudar.jpg";
 
 export const Container = styled.div`
   text-align: center;

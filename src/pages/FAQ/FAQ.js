@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import backgroundImg from "../../components/assets/logo.png";
+import backgroundImg from "../../assets/logo.png";
 
 export const FAQSectionContainer = styled.div`
   text-align: center;
