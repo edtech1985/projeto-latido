@@ -14,10 +14,10 @@ export const WhatsAppButton = styled.button`
   border: 2px solid transparent;
 
   &:hover {
-    background-color: var(--dark);
-    color: var(--light-red);
-    border: 2px solid var(--light-red);
-    box-shadow: 0px 0px 6px 6px var(--light-red);
+    background-color: var(--light-orange);
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    box-shadow: 0px 0px 6px 6px var(--dark-orange);
   }
 
   a {
@@ -25,7 +25,7 @@ export const WhatsAppButton = styled.button`
     color: #fff;
 
     &:hover {
-      color: var(--light-red);
+      color: var(--blue);
     }
   }
 `;

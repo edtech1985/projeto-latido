@@ -46,7 +46,7 @@ export const Subtitle = styled.h2`
 export const Subtitle2 = styled.h2`
   font-size: 1.5rem;
   line-height: 1.4;
-  color: var(--brown);
+  color: var(--blue);
   margin-bottom: 1rem;
 
   @media (max-width: 768px) {
@@ -137,13 +137,14 @@ export const GridItem = styled.div`
   justify-content: center;
   text-align: center;
   cursor: pointer;
-  border: 2px solid transparent;
-  border-radius: 15px;
+  border: 5px solid transparent;
+  border-radius: 50%;
+  padding: 1rem;
   transition: background-color 1s ease-in-out, 1s ease-out;
 
   &:hover {
-    border: 2px solid var(--light-orange);
-    box-shadow: 0px 0px 12px 12px var(--light-orange);
+    border: 5px solid var(--blue);
+    box-shadow: 0px 0px 12px 12px var(--yellow);
   }
 `;
 
@@ -151,7 +152,7 @@ export const GridImage = styled.img`
   width: 100%;
   max-width: 20vw;
 
-  border-radius: 15px;
+  border-radius: 50%;
 
   @media (max-width: 768px) {
     max-width: 50vw;

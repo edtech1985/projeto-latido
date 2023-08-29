@@ -93,7 +93,7 @@ export const CallToActionLink = styled.button`
 
   &:hover {
     color: var(--light-orange);
-    background-color: var(--dark);
+    background-color: var(--dark-orange);
     border: 2px solid var(--light-orange);
 
     box-shadow: 0px 0px 6px 6px var(--light-orange);
@@ -134,10 +134,10 @@ export const DogCard = styled.div`
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  border: 2px solid var(--light-orange);
+  border: 5px solid var(--blue);
   padding-top: 1rem;
   height: 100%;
-  background-color: var(--brown);
+  background-color: var(--light-orange);
 
   cursor: pointer;
   transition: background-color 1s ease-in-out, 1s ease-out;
@@ -145,7 +145,7 @@ export const DogCard = styled.div`
   &:hover {
     background-color: var(--dark-orange);
     color: var(--white);
-    border: 2px solid var(--brown);
+    border: 5px solid var(--brown);
     box-shadow: 0px 0px 10px 10px var(--light-orange);
   }
 `;
@@ -157,7 +157,11 @@ export const DogContent = styled.div`
     margin: 0;
     font-size: 1.25rem;
     padding: 1rem;
-    color: var(--light-orange);
+    color: var(--blue);
+
+    ${DogCard}:hover & {
+      color: var(--white);
+    }
   }
 
   p {

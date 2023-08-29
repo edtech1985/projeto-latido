@@ -15,20 +15,18 @@ export const ModalOverlay = styled.div`
 
 const pulsate = keyframes`
   0%, 100% {
-    border-color: var(--dark-orange);
+    border-color: var(--blue);
   }
   50% {
-    border-color: var(--brown);
+    border-color: var(--yellow);
   }
 `;
 
 export const ModalContent = styled.div`
-  background-color: var(--dark-orange);
+  background-color: var(--light-orange);
   padding: 1rem;
   border-radius: 15px;
-
-  box-shadow: 2px 4px 16px rgba(191, 156, 90, 0.5);
-  width: 36rem;
+  max-width: 50vw;
   max-height: 85vh;
   overflow: auto;
   position: relative;
@@ -36,7 +34,8 @@ export const ModalContent = styled.div`
   align-items: center;
   text-align: center;
   border: 5px solid;
-  border-color: var(--light-orange); /* Efeito luminoso no hover */
+  border-color: var(--yellow); /* Efeito luminoso no hover */
+  box-shadow: 0px 0px 16px 16px rgba(191, 156, 90, 0.5);
   animation: ${pulsate} 1.5s infinite; /* Aplicando a animação de pulsar */
 
   @media (min-width: 769px) and (max-width: 999px) {
@@ -49,7 +48,7 @@ export const ModalContent = styled.div`
 `;
 
 export const ModalTitle = styled.h2`
-  color: var(--white);
+  color: var(--blue);
   margin-top: 0.75rem;
 `;
 
