@@ -33,7 +33,7 @@ export const WelcomeParagraph = styled.h1`
   font-size: 1.5rem;
   text-align: center;
   margin: 0.5rem;
-  color: var(--brown);
+  color: var(--blue);
 
   @media (max-width: 768px) {
     font-size: 1.25rem;
@@ -44,7 +44,7 @@ export const WelcomeH2 = styled.h2`
   font-size: 1rem;
   text-align: center;
   margin: 1rem;
-  color: var(--brown);
+  color: var(--blue);
 
   @media (max-width: 768px) {
     font-size: 1rem;
@@ -82,14 +82,15 @@ export const CallToActionLink = styled.button`
   background-color: #c51d5d;
   padding: 1rem 2rem;
   border-radius: 2rem;
+  border: 3px solid var(--white);
   font-weight: bold;
   transition: background-color 0.75s ease-in-out;
   cursor: pointer;
 
   &:hover {
-    color: var(--light-red);
-    background-color: var(--dark);
-    border: 2px solid var(--light-red);
+    color: var(--blue);
+    background-color: var(--light-orange);
+    border: 3px solid var(--blue);
   }
 
   @media (max-width: 768px) {
@@ -100,8 +101,8 @@ export const CallToActionLink = styled.button`
 
 export const IGIcon = styled(FaInstagram)`
   &:hover {
-    background-color: var(--dark);
-    color: var(--dark-red);
+    background-color: var(--brown);
+    color: var(--blue);
   }
 `;
 

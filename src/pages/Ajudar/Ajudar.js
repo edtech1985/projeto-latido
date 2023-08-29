@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import backgroundImage from "../../components/assets/ajudar.jpg";
+import backgroundImg from "../../components/assets/ajudar.jpg";
 
 export const AjudarBackground = styled.div`
   position: fixed;
@@ -12,13 +13,51 @@ export const AjudarBackground = styled.div`
   z-index: -1;
 `;
 
-export const AjudarSectionContainer = styled.section`
+export const Container = styled.section`
+  display: block;
+  padding: 1rem;
+`;
+
+export const TopSection = styled.div`
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   justify-content: center;
 
   @media (max-width: 768px) {
     padding: 1rem;
+  }
+`;
+
+export const DivTextImg = styled.div`
+  display: flex;
+`;
+
+export const DivText = styled.div`
+  width: 100%;
+  display: block;
+  align-self: center;
+  text-align: center;
+  margin: 1rem;
+
+  @media (max-width: 768px) {
+    width: 100vw;
+    margin: 1rem;
+    margin-bottom: 0;
+  }
+`;
+
+export const DivBgImg = styled.div`
+  background-image: url(${backgroundImg});
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+  width: 100vw;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 60vh;
+    background-size: contain;
+    background-position: center center;
   }
 `;
 
@@ -34,7 +73,7 @@ export const AjudarTitle = styled.h1`
 
 export const AjudarSubtitle = styled.h2`
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: var(--brown);
 
   @media (max-width: 768px) {
@@ -44,7 +83,7 @@ export const AjudarSubtitle = styled.h2`
 
 export const AjudarH3 = styled.h3`
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: var(--blue);
 
   @media (max-width: 768px) {
@@ -55,8 +94,34 @@ export const AjudarH3 = styled.h3`
 export const AjudarParagraph = styled.p`
   font-size: 1.15rem;
   line-height: 1.6;
-  margin-bottom: 1.5rem;
-  color: #f2f2f2;
+  margin-bottom: 1rem;
+  color: var(--white);
+
+  a {
+    color: var(--brown);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.5s ease;
+
+    &:hover {
+      color: var(--blue);
+    }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+`;
+
+export const AjudarHash = styled.p`
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: var(--brown);
+
+  &:hover {
+    color: var(--blue);
+  }
 
   @media (max-width: 768px) {
     font-size: 1rem;
@@ -74,18 +139,18 @@ export const CTAButton = styled.a`
   background: var(--blue);
   color: white;
   padding: 1rem 2rem;
-  border-radius: 15px;
+  border-radius: 20px;
   margin-top: 1rem;
   text-decoration: none;
   transition: background-color 1s ease-in-out, 1s ease-out;
-  border: 2px solid transparent;
-  width: 50%;
+  border: 3px solid transparent;
+  width: 40%;
 
   &:hover {
-    color: var(--blue);
+    color: var(--yellow);
     background-color: var(--brown);
-    border: 2px solid var(--light-orange);
+    border: 3px solid var(--yellow);
 
-    box-shadow: 0px 0px 6px 6px var(--light-orange);
+    box-shadow: 0px 0px 12px 12px var(--yellow);
   }
 `;

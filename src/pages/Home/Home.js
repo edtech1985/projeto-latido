@@ -31,6 +31,7 @@ export const DivOpacity = styled.div`
   margin: 2rem auto;
   background-color: rgba(0, 0, 0, 0.75);
   height: auto;
+  border-radius: 20px;
 `;
 
 export const WelcomeParagraph = styled.h1`
@@ -133,7 +134,7 @@ export const DogCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 20px;
   border: 5px solid var(--blue);
   padding-top: 1rem;
   height: 100%;

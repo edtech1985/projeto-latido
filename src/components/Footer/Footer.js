@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  background-color: var(--brown);
+  background: linear-gradient(
+    to left,
+    var(--yellow) 0%,
+    var(--light-orange) 60%,
+    var(--dark-orange) 95%,
+    var(--brown) 100%
+  );
   color: white;
   display: flex;
   justify-content: space-between;
@@ -46,7 +52,7 @@ export const StyledIconItem = styled.li`
   color: var(--white);
   cursor: pointer;
   &:hover {
-    color: var(--dark-orange);
+    color: var(--blue);
   }
   a {
     text-decoration: none;
@@ -72,9 +78,10 @@ export const StyledRightsReserved = styled.p`
     }
   }
   span {
-    color: var(--dark-orange);
+    font-weight: bold;
+    color: var(--blue);
     &:hover {
-      color: var(--blue);
+      color: var(--dark-orange);
     }
   }
   @media only screen and (max-width: 600px) {
@@ -90,17 +97,17 @@ export const StyledDevelopedBy = styled.p`
 
   a {
     text-decoration: none;
-    color: var(--dark-orange);
+    color: var(--blue);
 
     &:hover {
-      color: var(--blue);
+      color: var(--dark-orange);
     }
   }
   span {
-    color: var(--light-red);
+    color: var(--blue);
 
     &:hover {
-      color: var(--dark-red);
+      color: var(--dark-orange);
     }
   }
   @media only screen and (max-width: 600px) {

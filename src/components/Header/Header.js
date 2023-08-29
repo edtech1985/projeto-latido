@@ -6,13 +6,19 @@ export const StyledHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1vw;
-  background-color: var(--light-orange);
+  background: linear-gradient(
+    to right,
+    var(--yellow) 0%,
+    var(--light-orange) 60%,
+    var(--dark-orange) 95%,
+    var(--brown) 100%
+  );
   width: 100vw;
   max-height: 12vh;
   height: 12vh;
   box-sizing: border-box;
   position: relative;
-  border-bottom: 1px solid var(--blue);
+  border-bottom: 1px solid var(--brown);
   box-shadow: 1px 3px 10px rgba(191, 156, 90, 0.5);
 
   a {
