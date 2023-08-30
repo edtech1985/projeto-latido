@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-    font-family: 'Luckiest Guy', cursive, 'Poppins', sans-serif;
+    font-family: 'Luckiest Guy', 'Poppins', sans-serif;
   }
 
   body {
