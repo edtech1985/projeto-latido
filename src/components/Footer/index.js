@@ -37,7 +37,7 @@ function Footer() {
 
         <StyledIconItem>
           <a
-            href="https://api.whatsapp.com/send?phone=5551992002595&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%E2%80%A6"
+            href="https://api.whatsapp.com/send?phone=5518996948407"
             target="_blank"
             rel="noreferrer"
             alt="WhatsApp  Projeto Latido"
@@ -54,7 +54,7 @@ function Footer() {
         <StyledRightsReserved>
           © 2023 Direitos Reservados |{" "}
           <a
-            href="https://edtech1985.com.br/"
+            href="https://www.projetolatido.org/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Ir para o Projeto Latido"
