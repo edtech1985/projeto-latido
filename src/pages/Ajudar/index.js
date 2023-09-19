@@ -83,15 +83,16 @@ const Ajudar = () => {
               diferença no processo de adaptação do peludo em um novo lar.
             </AjudarParagraph>
             <AjudarParagraph>
-              Entre em contato por e-mail
-              voluntarios@amigosdesaofrancisco.com.br para saber mais detalhes.
+              Entre em contato (18)99694-8407 para saber mais detalhes.
             </AjudarParagraph>
           </DivText>
 
           <DivBgImg></DivBgImg>
         </DivTextImg>
         <CenterDiv>
-          <CTAButton href="https://apoia.se/projetolatido" target="_blank">
+          <CTAButton href="https://apoia.se/projetolatido" target="_blank" rel="noreferrer"
+                alt="Ajudar Projeto Latido"
+                aria-label="Ajudar Projeto Latido">
             QUERO AJUDAR
           </CTAButton>
         </CenterDiv>

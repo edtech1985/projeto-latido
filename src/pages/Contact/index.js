@@ -57,7 +57,7 @@ export default function Contact() {
             <div className="animation" data-aos="fade-up">
               <ItemContato>
                 <a
-                  href="https://api.whatsapp.com/send?phone=555192002595"
+                  href="https://api.whatsapp.com/send?phone=5518996948407"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Projeto latido Whatsapp 1"

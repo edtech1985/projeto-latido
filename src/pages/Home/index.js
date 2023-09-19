@@ -47,7 +47,7 @@ const Home = () => {
 
             <div className="animation" data-aos="zoom-in">
               <StyledALink
-                href="https://api.whatsapp.com/send?phone=555192002595&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%E2%80%A6"
+                href="https://api.whatsapp.com/send?phone=5518996948407"
                 target="_blank"
                 rel="noreferrer"
                 alt="WhatsApp  Projeto Latido"

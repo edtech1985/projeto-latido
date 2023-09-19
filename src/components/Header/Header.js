@@ -6,13 +6,7 @@ export const StyledHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1vw;
-  background: linear-gradient(
-    to right,
-    var(--yellow) 0%,
-    var(--light-orange) 60%,
-    var(--dark-orange) 95%,
-    var(--brown) 100%
-  );
+  background: var(--light-orange);
   width: 100vw;
   max-height: 12vh;
   height: 12vh;
@@ -108,7 +102,7 @@ export const BurgerMenuButton = styled.button`
 
 export const NavbarTitle = styled.h2`
   font-size: 2rem;
-  color: var(--biege); //verificar
+  color: var(--blue); //verificar
   display: flex;
   align-items: center;
   cursor: pointer;

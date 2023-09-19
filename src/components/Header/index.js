@@ -26,16 +26,8 @@ function Header() {
       <Link to="/">
         <StyledLogo src={logo} alt="Projeto Latido" />
       </Link>
-      <Link
-        as={NavLink}
-        to="/"
-        exact
-        onClick={handleNavItemClick}
-        alt="Projeto Latido"
-        aria-label="Projeto Latido"
-      >
-        <NavbarTitle>Projeto Latido</NavbarTitle>
-      </Link>
+
+      <NavbarTitle>Projeto Latido</NavbarTitle>
 
       <BurgerMenuButton
         id="BurgerButtonMenu"

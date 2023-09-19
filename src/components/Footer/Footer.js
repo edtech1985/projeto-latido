@@ -1,13 +1,7 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  background: linear-gradient(
-    to left,
-    var(--yellow) 0%,
-    var(--light-orange) 60%,
-    var(--dark-orange) 95%,
-    var(--brown) 100%
-  );
+  background: var(--dark-orange);
   color: white;
   display: flex;
   justify-content: space-between;
