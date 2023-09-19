@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-// import { Link } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
 import backgroundImg from "../../assets/logo.png";
 
@@ -70,6 +69,7 @@ export const CallToAction = styled.div`
 export const CallToActionText = styled.p`
   font-size: 1.25rem;
   margin-bottom: 2rem;
+  
 
   @media (max-width: 768px) {
     font-size: 1.25rem;
@@ -81,13 +81,13 @@ export const StyledALink = styled.a`
 `;
 
 export const CallToActionLink = styled.button`
+font-family: 'Roboto', sans-serif;
   vertical-align: middle;
   color: white;
   background-color: green;
   padding: 1rem 2rem;
   border-radius: 2rem;
   font-weight: bold;
-
   transition: background-color 1s ease-in-out, 1s ease-out;
   border: 2px solid transparent;
   cursor: pointer;

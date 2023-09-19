@@ -83,9 +83,10 @@ export const CallToActionLink = styled.button`
   padding: 1rem 2rem;
   border-radius: 2rem;
   border: 3px solid var(--white);
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   transition: background-color 0.75s ease-in-out;
-  cursor: pointer;
+  cursor: pointer; 
 
   &:hover {
     color: var(--blue);
