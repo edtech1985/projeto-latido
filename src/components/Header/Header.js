@@ -47,7 +47,7 @@ export const StyledNavbar = styled.nav`
     top: 0;
     right: 0;
     flex-direction: column;
-    background-color: var(--dark-orange); //fundo bruger menu down
+    background-color: var(--light-orange); //fundo bruger menu down
     width: 100%;
     height: 100vh;
     padding-top: 0;
