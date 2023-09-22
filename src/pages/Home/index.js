@@ -64,7 +64,7 @@ const Home = () => {
 
           <DogsContainer>
             <div className="animation" data-aos="fade-right" >
-            <StyledALink href="https://apoia.se/projetolatido" target="_blank"
+            <StyledALink href="/quero-ajudar" target="_blank"
                 rel="noreferrer">
               <DogCard>
                 <Icon className="fa fa-gratipay" aria-hidden="true" />{" "}

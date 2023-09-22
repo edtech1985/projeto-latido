@@ -39,29 +39,16 @@ const Ajudar = () => {
           <DivText>
             <AjudarH3>SENDO VOLUNTÁRIO</AjudarH3>
             <AjudarParagraph>
-              Temos eventos em Presidente Prudente-SP, onde você pode conhecer nossa sede, e
-              também em São Paulo, e você poderá ajudar na: - organização das
-              feiras de adoção - visita de mutirão no sítio - organização dos
-              bazares
+              Temos eventos em Presidente Prudente-SP, onde você pode conhecer
+              nossa sede, e também em São Paulo, e você poderá ajudar na: -
+              organização das feiras de adoção - visita de mutirão no sítio -
+              organização dos bazares
             </AjudarParagraph>
             <AjudarH3>AJUDA FINANCEIRA</AjudarH3>
             <AjudarParagraph>
               Consumimos por volta de uma tonelada de ração por mês, e em nosso
               orçamento temos muitos gastos com veterinários, medicamentos etc,
               portanto qualquer ajuda financeira é bem-vinda.
-            </AjudarParagraph>
-            <AjudarParagraph>
-              Clique{" "}
-              <a
-                href="https://apoia.se/projetolatido"
-                target="_blank"
-                rel="noreferrer"
-                alt="Ajudar Projeto Latido"
-                aria-label="Ajudar Projeto Latido"
-              >
-                AQUI
-              </a>{" "}
-              e saiba como ajudar.
             </AjudarParagraph>
 
             <AjudarH3>QUERO APADRINHAR</AjudarH3>
@@ -91,11 +78,11 @@ const Ajudar = () => {
         </DivTextImg>
         <CenterDiv>
           <CTAButton
-            href="https://apoia.se/projetolatido"
+            href="https://api.whatsapp.com/send?phone=5518996948407&text=Ol%C3%A1%20Projeto%20Latido,%20quero%20ajudar!"
             target="_blank"
             rel="noreferrer"
             alt="Ajudar Projeto Latido"
-            aria-label="Ajudar Projeto Latido"
+            aria-label="Ajudar o Projeto Latido"
           >
             QUERO AJUDAR
           </CTAButton>
