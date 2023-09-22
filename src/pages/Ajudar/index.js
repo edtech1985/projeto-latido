@@ -16,6 +16,7 @@ import {
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CopyPhoneNumber from "./CopyPhoneNumber";
 
 const Ajudar = () => {
   useEffect(() => {
@@ -49,6 +50,7 @@ const Ajudar = () => {
               Consumimos por volta de uma tonelada de ração por mês, e em nosso
               orçamento temos muitos gastos com veterinários, medicamentos etc,
               portanto qualquer ajuda financeira é bem-vinda.
+              <CopyPhoneNumber />
             </AjudarParagraph>
 
             <AjudarH3>QUERO APADRINHAR</AjudarH3>
@@ -86,6 +88,8 @@ const Ajudar = () => {
           >
             QUERO AJUDAR
           </CTAButton>
+
+          
         </CenterDiv>
       </div>
     </Container>
