@@ -15,13 +15,13 @@ export const StyledFooter = styled.footer`
   border-top: 1px solid var(--blue);
   box-shadow: 0px 0px 5px rgba(191, 156, 90, 0.5);
 
-  @media only screen and (max-width: 600px) {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  @media only screen and (max-width: 768px) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     justify-content: center;
     flex-direction: column;
-    max-height: 20vh;
-    height: 20vh;
+    height: auto;
+    max-height: 25vh;
   }
 `;
 
