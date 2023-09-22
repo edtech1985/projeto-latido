@@ -9,20 +9,21 @@ export const Container = styled.div`
   background-position: center right;
 
   @media only screen and (max-width: 768px) {
-    background-size: cover;
+    background-size: contain;
   }
 `;
 
 export const DivOpacity = styled.div`
-  width: 40vw;
+  width: 70vw;
   align-items: center;
   justify-content: center;
-  padding: 4rem;
-  margin: 5rem auto;
+  padding: 1rem;
+  margin: 2rem auto;
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 20px;
-
+  
   @media only screen and (max-width: 768px) {
+    width: 80vw;
   }
 `;
 

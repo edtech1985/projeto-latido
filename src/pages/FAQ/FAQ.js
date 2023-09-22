@@ -7,11 +7,11 @@ export const FAQSectionContainer = styled.div`
   background-image: url(${backgroundImg});
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center right;
-  height: 100vh;
+  background-position: center;
+  max-height: 100vh;
 
   @media only screen and (max-width: 768px) {
-    background-size: cover;
+    
   }
 `;
 

@@ -112,10 +112,10 @@ export const SecondaryImage = styled.img`
 
 export const GridSection = styled.section`
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem;
 
   @media (max-width: 768px) {
-    padding: 30px 0;
+    padding: 30px;
   }
 `;
 

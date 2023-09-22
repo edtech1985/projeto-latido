@@ -7,7 +7,7 @@ export const HomePage = styled.div`
   background-image: url(${backgroundImg});
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: center;
 
   vertical-align: middle;
 `;
