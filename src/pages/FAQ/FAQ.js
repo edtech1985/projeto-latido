@@ -20,7 +20,7 @@ export const DivOpacity = styled.div`
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  margin: 5rem auto;
+  margin: 1rem auto;
   background-color: rgba(0, 0, 0, 0.75);
 `;
 
@@ -50,5 +50,5 @@ export const Answer = styled.div`
   display: ${(props) => (props.isOpen ? "block" : "none")};
   margin-left: 1rem;
   margin-bottom: 1rem;
-  color: var(--light-orange);
+  color: var(--white);
 `;

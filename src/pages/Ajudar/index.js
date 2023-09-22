@@ -39,7 +39,7 @@ const Ajudar = () => {
           <DivText>
             <AjudarH3>SENDO VOLUNTÁRIO</AjudarH3>
             <AjudarParagraph>
-              Temos eventos em Ibiúna, onde você pode conhecer nossa sede, e
+              Temos eventos em Presidente Prudente-SP, onde você pode conhecer nossa sede, e
               também em São Paulo, e você poderá ajudar na: - organização das
               feiras de adoção - visita de mutirão no sítio - organização dos
               bazares

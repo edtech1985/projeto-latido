@@ -15,29 +15,39 @@ const FAQSection = () => {
   };
 
   const faqData = [
-    // {
-    //   question: "1. Os aparelhos têm garantia?",
-    //   answer:
-    //     "1 Ano de garantia Apple para os novos e 3 meses de garantia pela loja os semi-novos",
-    // },
-    // {
-    //   question: "2. Quais as formas de pagamento?",
-    //   answer:
-    //     "Aceitamos pagamento no cartão em até 12x, via PIX e transferência bancária.",
-    // },
-    // {
-    //   question: "3. Qual o endereço da loja?",
-    //   answer: "Zona Norte de Porto Alegre, mas enviamos para todo Brasil.",
-    // },
-    // {
-    //   question: "4. Qual o horário de atendimento?",
-    //   answer: "Segunda a sábado: 10:00 - 20:00",
-    // },
-    // {
-    //   question: "5. Trabalham somente com venda de aparelhos?",
-    //   answer:
-    //     "Trabalhamos com a venda de aparelhos novos e seminovos. Relógios e fones de ouvido.",
-    // },
+    {
+      question: "1. Como funciona o Projeto Latido?",
+      answer:
+        "O Projeto Latido é uma ONG que resgata cães de rua, abandonados e maus tratos, cuida desde o resgate até a reabilitação do animal. Após o resgate é feito um tratamento veterinário para recuperar a saúde e também um adestramento para recuperar o lado comportamental do animal. Ao final desse processo encaminhamos para adoção.",
+    },
+    {
+      question: "2. Como o projeto se mantém?",
+      answer:
+        "O Projeto Latido se mantém através de doações. Ainda não há apoio de poder público.",
+    },
+    {
+      question: "3. Como faço para adotar?",
+      answer: "É feita uma triagem. Onde há uma entrevista onde é coletado os dados da família e após é feito um acompanhamento e adaptação do animal. Se a família não se adaptar com o animal, o mesmo é devolvido para o projeto. Sempre visando o bem estar do animal.",
+    },
+    {
+      question: "4. Como começa o atendimento do Projeto Latido?",
+      answer: "A partir de denúncias é verificado se o Projeto tem a capacidade de atender as necessidades desse animal e a partir disso ele entra no circuito de resgate.",
+    },
+    {
+      question: "5. Atendem gatos?",
+      answer:
+        "Não, ataulmente não atendemos gatos. Apenas cães.",
+    },
+    {
+      question: "6. Como faço para ajudar?",
+      answer:
+        "Nossa principal fonte de recursos é através de doações via PIX. Contudo, você pode ajudar de várias formas. Ajudando financeiramente, com doações, sendo voluntário, sendo lar temporário, apadrinhando um animal, divulgando o projeto, compartilhando as publicações, participando dos eventos, etc.",
+    },
+    {
+      question: "7. Quais doações podem ser feitas?",
+      answer:
+        "Tudo que servir para os animais e seu manejo. Doações de ração, medicamentos, produtos de limpeza, produtos de higiene, roupinhas, cobertores, casinhas, etc.",
+    },
   ];
 
   return (
