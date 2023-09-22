@@ -49,7 +49,10 @@ function Footer() {
       </StyledIconList>
       <StyledDiv>
         <StyledRightsReserved>
-          Horário de Atendimento: <br></br>Segunda-feira a Sábado, das 8h às 20h
+          Horário de Atendimento: <br></br>Segunda a Sexta-feira, das 13h às 18h
+        </StyledRightsReserved>
+        <StyledRightsReserved>
+          Endereço: Estrada do Batalhão 941 JF Paulistano
         </StyledRightsReserved>
         <StyledRightsReserved>
           © 2023 Direitos Reservados |{" "}

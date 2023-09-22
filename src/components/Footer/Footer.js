@@ -10,7 +10,8 @@ export const StyledFooter = styled.footer`
   width: 100%;
   max-width: 100vw;
   box-sizing: border-box;
-  max-height: 12vh;
+  height: auto;
+  max-height: 15vh;
   border-top: 1px solid var(--blue);
   box-shadow: 0px 0px 5px rgba(191, 156, 90, 0.5);
 
