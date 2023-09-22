@@ -96,9 +96,9 @@ const Adote = () => {
 
               <WhatsAppButton>
                 <a
-                  href={`https://api.whatsapp.com/send?phone=5551992002595&text=Ol%C3%A1%20MJN%20Imports,%20estou%20interessado%20no%20${encodeURIComponent(
+                  href={`https://api.whatsapp.com/send?phone=5551992002595&text=Ol%C3%A1%Projeto%20Latido,%20estou%20interessado(a)%20no%20${encodeURIComponent(
                     selectedDog.nome
-                  )}%20${encodeURIComponent(selectedDog.tamanho)}`}
+                  )}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Projeto Latidos Whatsapp"

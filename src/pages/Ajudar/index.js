@@ -90,9 +90,13 @@ const Ajudar = () => {
           <DivBgImg></DivBgImg>
         </DivTextImg>
         <CenterDiv>
-          <CTAButton href="https://apoia.se/projetolatido" target="_blank" rel="noreferrer"
-                alt="Ajudar Projeto Latido"
-                aria-label="Ajudar Projeto Latido">
+          <CTAButton
+            href="https://apoia.se/projetolatido"
+            target="_blank"
+            rel="noreferrer"
+            alt="Ajudar Projeto Latido"
+            aria-label="Ajudar Projeto Latido"
+          >
             QUERO AJUDAR
           </CTAButton>
         </CenterDiv>

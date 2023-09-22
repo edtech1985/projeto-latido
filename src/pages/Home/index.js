@@ -61,8 +61,11 @@ const Home = () => {
               </StyledALink>
             </div>
           </CallToAction>
+
           <DogsContainer>
-            <div className="animation" data-aos="fade-right">
+            <div className="animation" data-aos="fade-right" >
+            <StyledALink href="https://apoia.se/projetolatido" target="_blank"
+                rel="noreferrer">
               <DogCard>
                 <Icon className="fa fa-gratipay" aria-hidden="true" />{" "}
                 <DogContent>
@@ -72,8 +75,11 @@ const Home = () => {
                   </p>
                 </DogContent>
               </DogCard>
+              </StyledALink>
             </div>
+
             <div className="animation" data-aos="fade-up">
+              <StyledALink href="/adote">
               <DogCard>
                 <Icon className="fa fa-home" aria-hidden="true" />{" "}
                 <DogContent>
@@ -81,9 +87,11 @@ const Home = () => {
                   <p>Dê um lar para nossos fiéis companheiros.</p>
                 </DogContent>
               </DogCard>
+              </StyledALink>
             </div>
 
             <div className="animation" data-aos="fade-left">
+            <StyledALink href="/quero-ajudar">
               <DogCard>
                 <Icon className="fa fa-paw" aria-hidden="true" />{" "}
                 <DogContent>
@@ -93,6 +101,7 @@ const Home = () => {
                   </CallToActionText>
                 </DogContent>
               </DogCard>
+            </StyledALink>
             </div>
           </DogsContainer>
         </DivOpacity>

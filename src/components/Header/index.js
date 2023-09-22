@@ -46,7 +46,7 @@ function Header() {
 
         <StyledNavItem
           as={NavLink}
-          to="/Adote"
+          to="/adote"
           alt="Adote"
           aria-label="Adote"
           onClick={handleNavItemClick}
