@@ -31,6 +31,11 @@ export const DivOpacity = styled.div`
   background-color: rgba(0, 0, 0, 0.75);
   height: auto;
   border-radius: 20px;
+
+  @media (max-width: 768px) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 `;
 
 export const WelcomeParagraph = styled.h1`

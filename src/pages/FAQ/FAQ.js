@@ -22,6 +22,12 @@ export const DivOpacity = styled.div`
   padding: 2rem;
   margin: 1rem auto;
   background-color: rgba(0, 0, 0, 0.75);
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 3rem 2rem;
+  }
 `;
 
 export const Title = styled.h1`
