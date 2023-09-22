@@ -49,15 +49,22 @@ export const DivText = styled.div`
 export const DivBgImg = styled.div`
   background-image: url(${backgroundImg});
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center right;
   width: 100vw;
+  overflow: hidden;
 
   @media (max-width: 768px) {
+  display: none;
+  }
+`;
+
+export const ImgMobile = styled.img`
+  display: none;
+  
+  @media (max-width: 768px) {
+    display: block;
     width: 100%;
-    height: 60vh;
-    background-size: contain;
-    background-position: center center;
   }
 `;
 

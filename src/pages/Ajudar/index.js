@@ -12,7 +12,10 @@ import {
   TopSection,
   DivTextImg,
   AjudarHash,
+  ImgMobile,
 } from "./Ajudar";
+
+import mobileImg from "../../assets/ajudar.jpg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -92,6 +95,8 @@ const Ajudar = () => {
           
         </CenterDiv>
       </div>
+
+      <ImgMobile src={mobileImg} />
     </Container>
   );
 };

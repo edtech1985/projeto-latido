@@ -121,6 +121,7 @@ export const DogsContainer = styled.div`
 
   @media (max-width: 769px) {
     grid-template-columns: 1fr;
+    gap: 50px;
   }
   @media (min-width: 769px) and (max-width: 991px) {
     grid-template-columns: repeat(3, 1fr);
