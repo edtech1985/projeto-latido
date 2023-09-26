@@ -59,6 +59,13 @@ export const DivBgImg = styled.div`
   }
 `;
 
+export const PixImg = styled.img`
+  width: 100%;
+  max-width: 30vw;
+  margin: 1rem;
+  `;
+
+
 export const ImgMobile = styled.img`
   display: none;
   

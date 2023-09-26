@@ -13,9 +13,11 @@ import {
   DivTextImg,
   AjudarHash,
   ImgMobile,
+  PixImg,
 } from "./Ajudar";
 
 import mobileImg from "../../assets/ajudar.jpg";
+import PixImgQR from "../../assets/img/qrcode.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -53,8 +55,14 @@ const Ajudar = () => {
               Consumimos por volta de uma tonelada de ração por mês, e em nosso
               orçamento temos muitos gastos com veterinários, medicamentos etc,
               portanto qualquer ajuda financeira é bem-vinda.
-              <CopyPhoneNumber />
+            <CopyPhoneNumber />
             </AjudarParagraph>
+
+            <AjudarParagraph>
+              Aponte sua camera para o qrcode abaixo e ajude o projeto latido.
+            </AjudarParagraph>
+
+            <PixImg src={PixImgQR} />
 
             <AjudarH3>QUERO APADRINHAR</AjudarH3>
             <AjudarParagraph>
@@ -91,8 +99,6 @@ const Ajudar = () => {
           >
             QUERO AJUDAR
           </CTAButton>
-
-          
         </CenterDiv>
       </div>
 
